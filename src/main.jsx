@@ -7,7 +7,7 @@ import { UseContextApp } from './UseContextHook.jsx'
 import GlobalState from './context/index.jsx'
 import { AppAssignment } from './UseEffect2.jsx'
 import { AppAssignment2 } from './UseEffect3.jsx'
-
+import { MemoAppOptimal } from './UseMemo.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -16,9 +16,13 @@ createRoot(document.getElementById('root')).render(
     <Wrapper/> */}
     <GlobalState>
       {/* <App3/>
+
       <UseContextApp/> */}
       {/* <AppAssignment/> */}
-      <AppAssignment2/>
+
+      {/* <AppAssignment2/> */}
+
+      <MemoAppOptimal/>
 
     </GlobalState>
   </>
