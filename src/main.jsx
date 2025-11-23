@@ -8,6 +8,7 @@ import GlobalState from './context/index.jsx'
 import { AppAssignment } from './UseEffect2.jsx'
 import { AppAssignment2 } from './UseEffect3.jsx'
 import { MemoAppOptimal } from './UseMemo.jsx'
+import { CallbackApp } from './UseCallback.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -22,7 +23,9 @@ createRoot(document.getElementById('root')).render(
 
       {/* <AppAssignment2/> */}
 
-      <MemoAppOptimal/>
+      {/* <MemoAppOptimal/> */}
+
+      <CallbackApp/>
 
     </GlobalState>
   </>
